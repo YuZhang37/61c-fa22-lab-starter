@@ -52,4 +52,8 @@ int vector_get(vector_t *v, size_t loc);
 /* Set a value in the vector */
 void vector_set(vector_t *v, size_t loc, int value);
 
+int get_least_expo(int size1, int size2);
+
+void copy_data(int *src_data, int *dst_data, int size);
+
 #endif
