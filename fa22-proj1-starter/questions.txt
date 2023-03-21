@@ -1,0 +1,6 @@
+1. when a snake consumes a fruit, this step, all cells of the snake should stay 
+where they are, except the head is moved to the new head.
+2. when a snake is dead, its head is replaced by x, all cells stay where they are
+    (1) all the cells it consumes will be recovered. 
+    (2) all the cells remain the way they are, but crossing snakes won't die.
+    (3) all the cells remain the way they are, but crossing snakes will die. (taken)
