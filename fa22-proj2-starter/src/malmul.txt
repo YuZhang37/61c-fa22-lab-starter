@@ -1,0 +1,20 @@
+a0,   a1,   a2
+arr1: m1 x n1
+
+a3,   a4,  a5
+arr2: m2 x n2
+
+a6
+res:  m1 x n2
+(n1 := m2 := k)
+
+int row = 0, col = 0;
+for (int i = 0; i < m1 * n2; i++) {
+    res[i] = dot(arr1 + row * k, arr2 + col, k, 1, n2);
+    col++;
+    if (col == n2) {
+        col = 0
+        row++;
+    }
+}
+return result
